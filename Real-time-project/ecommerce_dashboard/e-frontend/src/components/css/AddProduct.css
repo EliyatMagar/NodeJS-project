@@ -1,0 +1,72 @@
+/* General container styling */
+.add-product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Styling for the form heading */
+  .add-product-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the input fields */
+  .add-product-container input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  /* Focus state for input fields */
+  .add-product-container input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Styling for the submit button */
+  .add-product-container button {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for button */
+  .add-product-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styling for smaller devices */
+  @media (max-width: 600px) {
+    .add-product-container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .add-product-container input {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .add-product-container button {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  
